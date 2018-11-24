@@ -1,6 +1,6 @@
 {
   "name": "commit-comrade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "cli.js",
   "bin": {
@@ -22,7 +22,6 @@
   "dependencies": {
     "inquirer": "^6.2.0",
     "minimist": "^1.2.0",
-    "node-notifier": "^5.3.0",
-    "path": "^0.12.7"
+    "node-notifier": "^5.3.0"
   }
 }
