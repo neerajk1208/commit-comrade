@@ -64,9 +64,9 @@ const init = () => {
       type: 'input',
       message: 'How often would you like to commit? Default interval is 5 minutes.',
       validate: function (minutes) {
-        if (minutes.length && typeof value === 'number') {
+        if (minutes.length) {
           const seconds = minutes * 60;
-          Helper.updateDuration(seconds)
+          Helper.updateInterval(seconds)
         }
         initiateTracker();
         return true;
