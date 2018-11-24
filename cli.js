@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-const path = require('path');
 const inquirer = require('inquirer');
 const notifier = require('node-notifier');
 const args = require('minimist')(process.argv.slice(2));
