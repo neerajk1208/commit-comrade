@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/neerajk1208/commit-comrade/issues"
   },
-  "homepage": "https://github.com/neerajk1208/commit-comrade#readme"
+  "homepage": "https://github.com/neerajk1208/commit-comrade#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0",
+    "minimist": "^1.2.0",
+    "node-notifier": "^5.3.0",
+    "path": "^0.12.7"
+  }
 }
